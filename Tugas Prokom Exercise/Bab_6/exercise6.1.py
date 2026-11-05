@@ -1,8 +1,8 @@
 kenalan = {
-    'first_name': 'budi',
-    'last_name': 'santoso',
+    'first_name': 'Budi',
+    'last_name': 'Santoso',
     'age': 20,
-    'city': 'surakarta'
+    'city': 'Surakarta'
 }
 
 print(kenalan['first_name'])

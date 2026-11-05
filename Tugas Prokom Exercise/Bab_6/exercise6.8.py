@@ -1,9 +1,8 @@
-orang_1 = {'first_name': 'budi', 'last_name': 'santoso', 'age': 20, 'city': 'surakarta'}
-orang_2 = {'first_name': 'andi', 'last_name': 'wijaya', 'age': 22, 'city': 'jakarta'}
-orang_3 = {'first_name': 'siti', 'last_name': 'aminah', 'age': 19, 'city': 'bandung'}
+pet_1 = {'jenis': 'kucing', 'pemilik': 'dicky'}
+pet_2 = {'jenis': 'anjing', 'pemilik': 'budi'}
+pet_3 = {'jenis': 'burung', 'pemilik': 'siti'}
 
-people = [orang_1, orang_2, orang_3]
+pets = [pet_1, pet_2, pet_3]
 
-for p in people:
-    nama = f"{p['first_name'].title()} {p['last_name'].title()}"
-    print(f"Nama: {nama}, Umur: {p['age']}, Kota: {p['city'].title()}")
+for p in pets:
+    print(f"Hewan {p['jenis']} ini dimiliki oleh {p['pemilik'].title()}.")
